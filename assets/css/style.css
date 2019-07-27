@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(https://www.sagaftra.org/files/styles/sa_hero_desktop_2x/public/banner_locals_Chicago.jpg?itok=kfMHHi2C&timestamp=1523990762);
+    background-image: url(http://paperlief.com/images/chicago-at-night-wallpaper-wallpaper-2.jpg);
 }
 
 html {
@@ -28,7 +28,7 @@ html {
     visibility: hidden;
 }
 
-h3 {
+h2 {
     font-weight: 300;
     text-transform: uppercase;
     margin-top: 0;
@@ -37,7 +37,9 @@ h3 {
     font-size: 240;
     word-spacing: 4px;
     letter-spacing: 1px;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Faster One', cursive;
 }
 
 
@@ -113,7 +115,6 @@ a:active {
 /*---------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
