@@ -83,8 +83,8 @@ a:active {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 2px solid yellow;
+    color: yellow;
     padding-right: 10px;
     padding-left: 10px;
 }
