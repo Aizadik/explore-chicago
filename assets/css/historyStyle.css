@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://cdn.spacetelescope.org/archives/images/screen/heic1313b.jpg);
+}
+
+.container {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    color: burlywood;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
