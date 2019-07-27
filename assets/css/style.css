@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(https://www.sagaftra.org/files/styles/sa_hero_desktop_2x/public/banner_locals_Chicago.jpg?itok=kfMHHi2C&timestamp=1523990762);
+    background-image: url(http://paperlief.com/images/chicago-at-night-wallpaper-wallpaper-2.jpg);
 }
 
 html {
@@ -28,7 +28,7 @@ html {
     visibility: hidden;
 }
 
-h3 {
+h2 {
     font-weight: 300;
     text-transform: uppercase;
     margin-top: 0;
@@ -37,8 +37,9 @@ h3 {
     font-size: 240;
     word-spacing: 4px;
     letter-spacing: 1px;
-    font-family: 'Nanum Pen Script', cursive;
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Faster One', cursive;
 }
 
 
@@ -84,6 +85,8 @@ a:active {
 .btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .btn:hover,
@@ -112,7 +115,6 @@ a:active {
 /*---------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -154,6 +156,11 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+<<<<<<< HEAD
 #show-places{
     padding: 10px;
 }
+=======
+
+/* Gallery Page ----> Section Gallery */
+>>>>>>> 4a9049767235d00e61143481dfd89ac851d74d02
