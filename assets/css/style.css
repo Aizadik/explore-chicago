@@ -16,8 +16,19 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+p {
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
 .clearfix {
     zoom: 1
+}
+
+.main-nav {
+    margin-top: 5px;
 }
 
 .clearfix:after {
