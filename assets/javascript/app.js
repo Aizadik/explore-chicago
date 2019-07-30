@@ -15,40 +15,48 @@ function thisGetDataFromTOMTOM(rawQuery) {
 
 thisGetDataFromTOMTOM('pizza').then(function (response) {
     console.log(response)  
+  return  thisGetDataFromTOMTOM('beers')
 })
-thisGetDataFromTOMTOM('beers').then(function (response) {
+.then(function (response) {
     console.log(response)  
+ return   thisGetDataFromTOMTOM('wine festivals')
 })
-thisGetDataFromTOMTOM('museum').then(function (response) {
+.then(function (response) {
     console.log(response)  
+ return   thisGetDataFromTOMTOM('')
 })
-thisGetDataFromTOMTOM('concerts').then(function (response) {
+  .then(function (response) {
     console.log(response)  
+return thisGetDataFromTOMTOM('breakfast')
 })
-thisGetDataFromTOMTOM('music festivals').then(function (response) {
+.then(function (response) {
     console.log(response)  
+return thisGetDataFromTOMTOM('food festival')
 })
-thisGetDataFromTOMTOM('food festival').then(function (response) {
+.then(function (response) {
     console.log(response)  
+return thisGetDataFromTOMTOM('hot dogs')
 })
-thisGetDataFromTOMTOM('wine festivals').then(function (response) {
-    console.log(response)  
-})
-thisGetDataFromTOMTOM('sports').then(function (response) {
-    console.log(response)  
-})
-thisGetDataFromTOMTOM('movies').then(function (response) {
-    console.log(response)  
-})
-thisGetDataFromTOMTOM('architectural tours').then(function (response) {
-    console.log(response)  
-})
-thisGetDataFromTOMTOM('kayaking').then(function (response) {
-    console.log(response)  
-})
-thisGetDataFromTOMTOM('hiking').then(function (response) {
-    console.log(response)  
-})
+
+}}
+// thisGetDataFromTOMTOM('wine festivals').then(function (response) {
+//     console.log(response)  
+// })
+// thisGetDataFromTOMTOM('sports').then(function (response) {
+//     console.log(response)  
+// })
+// thisGetDataFromTOMTOM('movies').then(function (response) {
+//     console.log(response)  
+// })
+// thisGetDataFromTOMTOM('architectural tours').then(function (response) {
+//     console.log(response)  
+// })
+// thisGetDataFromTOMTOM('kayaking').then(function (response) {
+//     console.log(response)  
+// })
+// thisGetDataFromTOMTOM('hiking').then(function (response) {
+//     console.log(response)  
+// })
 
 
     // $("button").on("click", function (event) {
