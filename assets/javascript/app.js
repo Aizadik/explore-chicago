@@ -1,7 +1,7 @@
 console.log("testing")
 
 function thisGetDataFromTOMTOM(rawQuery) {
-    
+
     // var rawQuery = 'here put the value to search'
     var query = encodeURIComponent(rawQuery)
     var key = "IRq5hBHkSxMs2QAsZKb5usDxsCAARagg"
@@ -13,32 +13,32 @@ function thisGetDataFromTOMTOM(rawQuery) {
 }
 
 
-thisGetDataFromTOMTOM('pizza').then(function (response) {
-    console.log(response)  
-  return  thisGetDataFromTOMTOM('beers')
-})
-.then(function (response) {
-    console.log(response)  
- return   thisGetDataFromTOMTOM('wine festivals')
-})
-.then(function (response) {
-    console.log(response)  
- return   thisGetDataFromTOMTOM('')
-})
-  .then(function (response) {
-    console.log(response)  
-return thisGetDataFromTOMTOM('breakfast')
-})
-.then(function (response) {
-    console.log(response)  
-return thisGetDataFromTOMTOM('food festival')
-})
-.then(function (response) {
-    console.log(response)  
-return thisGetDataFromTOMTOM('hot dogs')
-})
+thisGetDataFromTOMTOM('pizza').then(function(response) {
+        console.log(response)
+        return thisGetDataFromTOMTOM('beers')
+    })
+    .then(function(response) {
+        console.log(response)
+        return thisGetDataFromTOMTOM('wine festivals')
+    })
+    .then(function(response) {
+        console.log(response)
+        return thisGetDataFromTOMTOM('')
+    })
+    .then(function(response) {
+        console.log(response)
+        return thisGetDataFromTOMTOM('breakfast')
+    })
+    .then(function(response) {
+        console.log(response)
+        return thisGetDataFromTOMTOM('food festival')
+    })
+    .then(function(response) {
+        console.log(response)
+        return thisGetDataFromTOMTOM('hot dogs')
+    })
 
-}}
+
 // thisGetDataFromTOMTOM('wine festivals').then(function (response) {
 //     console.log(response)  
 // })
@@ -59,6 +59,6 @@ return thisGetDataFromTOMTOM('hot dogs')
 // })
 
 
-    // $("button").on("click", function (event) {
+// $("button").on("click", function (event) {
 
-    // })
+// })
