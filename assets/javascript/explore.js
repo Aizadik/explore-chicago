@@ -16,19 +16,20 @@ $(document).ready(function () {
             $(".buttons").append(newbutton);
         }
         /*
-        * on click function: while the button will be clicked it will be creating new buttons
+        * function: creat new buttons
         */
-    $("#add-items").on("click", function (event) 
+    function funcCreatBut (event) 
         {
             var toDoTask = $("#name-input").val().trim();
             newbuttons = `<button class="btn btn-primary" data-places="${toDoTask}" style = "margin:5px">${toDoTask}</button>`;
             $(".buttons").append(newbuttons);
             event.preventDefault();
-        });
+        };
         /*
-        * on click function: to get images from API 
+        * function: to get images from API 
         */
-    $(".buttons").on("click", function (event) 
+    
+    function funcAPI (event) 
         {
             $(".Gif").empty();
                 var places = $(event.target).attr("data-places");
@@ -47,6 +48,11 @@ $(document).ready(function () {
                         $(".Gif").prepend(PresidentDiv);
                     }
             });
-        });
+        };
+        /*
+        * onclick events
+        */
+    $("#add-items").on("click",funcCreatBut);
+    $(".buttons").on("click", funcAPI);
 });
 
