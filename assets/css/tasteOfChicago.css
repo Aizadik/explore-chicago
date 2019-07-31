@@ -12,6 +12,7 @@ body {
 .main-nav li {
     display: inline-block;
     margin: 40px;
+    color: white;
 }
 
 h2 {
@@ -29,10 +30,11 @@ h2 {
     transition: border-bottom 0.2s;
 }
 
-.nav-item:hover,
+
+/* .nav-item:hover,
 .nav-item:active {
     border-bottom: 2px solid #e67e22;
-}
+} */
 
 
 /* a.nav-item {
@@ -79,7 +81,7 @@ h4 {
     text-align: center;
 }
 
-#add-anime {
+#add-food {
     background-color: brown;
 }
 
@@ -105,10 +107,11 @@ input[type=submit] {
     padding: 10px 15px;
     margin: 6px;
     border-radius: 10px;
+    font-size: 15px;
 }
 
 input {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     border-radius: 15px;
     border-color: brown;
 }
