@@ -1,238 +1,119 @@
-* {
-    box-sizing: border-box;
-}
-
-
-/* About me */
-
-header h1 {
-    padding: 15px;
-    margin: 0;
-    font-size: 28px;
-    background-color: #4aaaa5;
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
     color: white;
-    display: inline-block;
-}
-
-header {
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
-}
-
-#inner-header {
-    max-width: 960px;
-    margin: auto;
 }
 
 body {
-    margin: 0;
-    background-color: lightslategrey;
+    background-image: url(http://thestreet.wpengine.com/wp-content/uploads/2017/01/blurry-food-festival_352728383_a.jpg);
 }
 
-#top-nav-bars {
-    color: 4aaaa5;
+.main-nav li {
     display: inline-block;
-    float: right;
-    padding: 20px;
-    font-size: 17px;
+    margin: 40px;
 }
 
-a {
+h2 {
+    margin-top: 30px;
+}
+
+.nav-item:link,
+.nav-item:visited {
+    padding: 8px 0;
+    color: #fff;
     text-decoration: none;
-    color: #4aaaa5;
-    margin-left: 20px;
-    border-right: 1px solid #4aaaa5;
-    padding-right: 15px;
-    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
 }
 
-a:hover {
-    background-color: #cccccc;
-    border-radius: 25px;
-    text-align: center;
-}
-
-a:last-of-type {
-    border-right: 0;
-    padding: 0;
-}
-
-#summary {
-    max-width: 960px;
-    background-color: white;
-    margin: auto;
-    margin-top: 30px;
-    border: 2px solid #cccccc;
-    padding-bottom: 120px;
-    padding-left: 20px;
-}
-
-h1 {
-    color: #4aaaa5;
-    margin: 20px auto 20px auto;
-}
-
-#bio-image {
-    float: left;
-    margin-right: 20px;
-}
-
-p {
-    clear: both;
-    border-top: 2px solid #4aaaa5;
-    padding-top: 20px;
-    line-height: 30px;
-    margin-right: 40px;
-}
-
-.bottom-footer {
-    margin-top: 50px;
-    background: white;
-    /* padding-bottom: 20px; */
-    border-top: 4px solid #4aaaa5;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-h6 {
-    text-align: center;
-    color: lightslategray;
+.nav-item:hover,
+.nav-item:active {
+    border-bottom: 2px solid #e67e22;
 }
 
 
-/* Contact */
+/* a.nav-item {
+    font-family: 'Racing Sans One', cursive;
+} */
 
-#contact {
-    max-width: 960px;
-    background-color: white;
-    margin: auto;
-    margin-top: 30px;
-    border: 2px solid #cccccc;
-    padding-bottom: 200px;
-    padding: 20px;
-}
-
-#contact h1 {
-    border-bottom: 2px solid #4aaaa5;
-    padding-bottom: 10px;
-}
-
-form label,
-form input,
-textarea {
-    display: block;
-    width: 100%;
-}
-
-input {
-    padding: 5px;
-}
-
-textarea {
-    height: 200px;
-}
-
-form label {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-form input[type='submit'] {
-    display: initial;
-    width: auto;
-    margin-top: 10px;
-    background-color: #4aaaa5;
-    padding: 10px;
+html,
+body {
+    font-family: 'Racing Sans One', cursive;
+    /* font-family: 'Bangers', cursive; */
+    /* font-family: 'Fugaz One', cursive !important; */
+    ;
+    /* font-family: 'Faster One', cursive; */
 }
 
 
-/*Portfolio */
+/* Gallery Page ----> Section Gallery */
 
-#portfolio {
-    position: relative;
-    border-bottom: 2px solid #4aaaa5;
-    padding-bottom: 10px;
+button,
+form {
+    margin: 10px;
 }
 
-#portfolio {
-    max-width: 960px;
-    background-color: white;
-    margin: auto;
-    margin-top: 30px;
-    border: 2px solid #cccccc;
-    padding-left: 20px;
-    margin-bottom: 80px;
+button {
+    color: brown;
+    margin-top: 20px;
 }
 
-div img {
-    border: 2px solid #4aaaa5;
-}
-
-.stripe {
-    background-color: #4aaaa5;
-    display: inline-block;
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
+.jumbotron {
+    font-family: 'Barriecito', cursive;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    background-color: brown;
     color: white;
 }
 
-.image-wrapper {
-    margin: 10px;
-    position: relative;
+h4 {
+    font-family: 'Barriecito', cursive;
+    font-family: 'Pacifico', cursive;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+#add-anime {
+    background-color: brown;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+    padding: 10px 15px;
+    margin: 6px;
+    border-radius: 10px;
+}
+
+button,
+html input[type=button],
+input[type=reset] {
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    margin: 6px;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    color: white;
+    padding: 10px 15px;
+    margin: 6px;
+    border-radius: 10px;
+}
+
+input {
+    background-color: aliceblue;
+    border-radius: 15px;
+    border-color: brown;
+}
+
+.item {
+    padding: 10px;
     display: inline-block;
-}
-
-
-/* 
-index.html: 980px, 768px, 640px
-portfolio.html: 980px, 768px, 640px
-contact.html: 980px, 768px, 640px */
-
-@media screen and (max-width: 980px) {
-    /* The body's bg color will be #333 */
-    body {
-        background-color: #333;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-    body {
-        background-color: lightyellow;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    /* The body's bg color will be #333 */
-    body {
-        background-color: white;
-    }
-    header {
-        position: static;
-    }
-}
-
-@media screen and (max-width: 582px) {
-    #top-nav-bars,
-    #top-nav-bars a {
-        float: none;
-        width: 100%;
-        display: block;
-    }
-    h1 {
-        width: 100%;
-        text-align: center;
-    }
-    #top-nav-bars a {
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-        border: 0;
-    }
 }

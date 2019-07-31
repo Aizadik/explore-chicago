@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-header h1 {
-    padding: 15px;
+header h2 {
+    padding: 25px;
     margin: 0;
     font-size: 28px;
     background-color: #4aaaa5;
@@ -34,6 +34,7 @@ body {
     float: right;
     padding: 20px;
     font-size: 17px;
+    padding-right: 60px;
 }
 
 a {

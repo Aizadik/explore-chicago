@@ -18,7 +18,7 @@ html {
 
 p {
     font-family: 'Courgette', cursive;
-    color: white;
+    color: yellow;
     font-size: 30px;
     padding-bottom: 20px;
 }
@@ -58,10 +58,10 @@ h2 {
 
 a:link,
 a:active {
-    color: #e67e22;
+    color: yellow;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px yellow;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -86,8 +86,8 @@ a:active {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: yellow;
+    border: 1px solid yellow;
     color: #fff;
     margin-right: 15px;
 }
@@ -95,7 +95,7 @@ a:active {
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 2px solid yellow;
-    color: yellow;
+    color: white;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -112,7 +112,7 @@ a:active {
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #e67e22;
+    border: 1px solid yellow;
     color: #fff;
 }
 
