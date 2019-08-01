@@ -1,0 +1,43 @@
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 40px;
+}
+
+.nav-item:link,
+.nav-item:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-item:hover,
+.nav-item:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+
+/* a.nav-item {
+    font-family: 'Racing Sans One', cursive;
+} */
+
+html,
+body {
+    font-family: 'Racing Sans One', cursive;
+    /* font-family: 'Bangers', cursive; */
+    /* font-family: 'Fugaz One', cursive !important; */
+    ;
+    /* font-family: 'Faster One', cursive; */
+}
+
+
+/* Gallery Page ----> Section Gallery */

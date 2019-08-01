@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Faster+One|Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/tasteOfChicago.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <title>Having fun in Chicago</title>
@@ -26,10 +27,22 @@
                 </ul>
             </div>
         </nav>
-        <div class="hero-text-box">
-            <h2>Welcome to Chicago!<br>The most beautiful city in the world!<br>Click below button to see Must See places in Chicago!</h2>
-            <a class="btn btn-ghost" href="#">EXPLORE CHICAGO</a>
-        </div>
+
+            <div class="container">
+                <div class="jumbotron">
+                    <h2>Explore Taste of Chicago!</h2>
+                </div>
+                <div id="foods-view">
+                </div>
+                <form id="food-form">
+                    <h4>Please type your favorite food</h4>
+                    <input type="text" id="food-input">
+                    <br>
+                    <!--Button triggers new show to be added -->
+                    <input id="add-food" type="submit" value="Submit">
+                </form>
+                <div id="GIFArea"> </div>
+            </div>
     </header>
     </section>
     <!--path to javascript folder-->
