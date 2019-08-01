@@ -1,68 +1,75 @@
-.menu 
-{
-    display:flex;
+.menu {
+    display: flex;
     max-width: 100%;
     height: auto;
-    text-align: justify;  
+    text-align: justify;
 }
-.buttons
-{
-    display:inline-block;
+
+h3 {
+    color: white;
+    font-family: 'Racing Sans One', cursive;
+    margin-left: 20px;
+}
+
+.buttons {
+    display: inline-block;
     width: 80%;
+    margin-left: 20px;
 }
-.float-right
-{
+
+.float-right {
     width: 22%;
 }
-.Gif
-{
-  width: 120%;
-  margin:20px;
+
+.Gif {
+    width: 120%;
+    margin: 20px;
 }
-.gifall
-{
+
+.gifall {
     float: left;
     width: 400px;
     margin-left: 10px;
 }
-.gifanchor
-{
+
+.gifanchor {
     visibility: hidden;
 }
-.gifanchor:after 
-{
-    content:'Show on the map'; 
+
+.gifanchor:after {
+    content: 'Show on the map';
     visibility: visible;
     display: block;
     background-color: rgb(94, 255, 0);
     margin-right: 150px;
 }
-.gifall img:hover
-{
+
+.gifall img:hover {
     transform: scale(2.1) translateX(40px);
     transition: transform ease-in .3s;
     z-index: 1000;
 }
-.gifall img
-{
+
+.gifall img {
     transform: scale(1);
     transition: transform ease-in .15s;
     z-index: 50;
 }
-.main-nav 
-{
+
+.main-nav {
     float: right;
     list-style: none;
     margin-top: 10px;
+    font-family: 'Racing Sans One', cursive;
 }
-.main-nav li 
-{
+
+.main-nav li {
     display: inline-block;
     margin: 20px;
 }
+
 .main-nav li a:link,
-.main-nav li a:visited 
-{
+.main-nav li a:visited {
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
@@ -71,8 +78,8 @@
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
+
 .main-nav li a:hover,
-.main-nav li a:active 
-{
+.main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
