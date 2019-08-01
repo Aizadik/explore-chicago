@@ -11,6 +11,11 @@ h3 {
     margin-left: 20px;
 }
 
+#labeling {
+    font-family: 'Racing Sans One', cursive;
+    color: white;
+}
+
 .buttons {
     display: inline-block;
     width: 80%;
