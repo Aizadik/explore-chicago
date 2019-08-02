@@ -5,6 +5,18 @@
     text-align: justify;
 }
 
+.hotels {
+    margin: 20px;
+}
+
+#btn-link {
+    background-color: 214, 214, 33;
+}
+
+.hotels {
+    padding-right: 20px;
+}
+
 h3 {
     color: white;
     font-family: 'Racing Sans One', cursive;
