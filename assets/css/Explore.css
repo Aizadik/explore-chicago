@@ -11,6 +11,14 @@ h3 {
     margin-left: 20px;
 }
 
+#add-items {
+    margin-right: 60px;
+}
+
+.btn btn-primary {
+    background-color: yellow;
+}
+
 #labeling {
     font-family: 'Racing Sans One', cursive;
     color: white;
