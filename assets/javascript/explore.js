@@ -3,10 +3,8 @@ $(document).ready(function() {
      * creating variables which will include the name of the primary buttons and value of the input tag
      */
     var newbuttons = [];
-    var placess = ["Millennium Park", "Willis Tower", "Navy Pier", "Cloud Gate", "Wrigley field",
-        "Buckingham Fountain", "Field Museum",
-        "Adler Planetarium", "John Hancock Center", "Grant Park",
-        "Crown Fountain", "Cultural Center", "Chicago Riverwalk", "Chicago Water Tower", "Chicago Theatre", "Chicago History Museum", "Navi Pier", "Museum of Science Industry", "Field Museum", "Shed Aquarium"
+    var placess = ["Millennium Park", "Willis Tower", "Navy Pier", "Cloud Gate", "Wrigley Field",
+        "John Hancock Center", "Cultural Center", "Chicago Riverwalk", "Navi Pier", "Museum of Science Industry", "Chicago Magnificent Mile", "Art Instuitute of Chicago"
     ];
     /*
      * creating a loop to take the value of the array and place it to the new buttons
