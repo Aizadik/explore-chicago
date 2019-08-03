@@ -86,6 +86,8 @@ h3 {
     list-style: none;
     margin-top: 10px;
     font-family: 'Racing Sans One', cursive;
+    font-size: 20px;
+    
 }
 
 .main-nav li {
@@ -96,7 +98,7 @@ h3 {
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
-    color: #fff;
+    color: yellow;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
@@ -107,4 +109,35 @@ h3 {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+#panel {
+   
+}
+#geocode #map {
+    display: none; 
+    margin-left: 20px;
+    width: 95%;
+    margin-bottom: 3px;
+    height: 450px;
+    background: grey;
+}
+
+#geocode #panel {
+    display: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    width: 95%;
+    min-height: 450px;
+    max-height: 450px;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+#Restaurant{
+    margin-left: 20px;
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Racing Sans One', cursive;
 }
