@@ -1,30 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
     <title>Get your wow today!!!</title>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="geo/map.css" />
+    <link rel="stylesheet" type="text/css" href="geo/styles.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="../template.css" /> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Faster+One|Fugaz+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/Explore.css">
+    <script type="text/javascript" src='../test-credentials.js'></script>    
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js"></script>
-</head>
-
-<body style="background-color: #2043A4">
-    <div class="row" style="margin-left:50%">
-        <ul class="main-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="history.html">Chicago History</a></li>
-            <li><a href="tasteOfChicago.html">Taste of Chicago</a></li>
-        </ul>
-    </div>
-    <div class="buttons"></div>
-    </br>
-    </br>
-    <div class="Gif"></div>
-</body>
-
+  </head>
+  <body id="geocode"  style="background-color: #2043A4">
+      <div class="row" style="margin-left:50%">
+          <ul class="main-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="history.html">Chicago History</a></li>
+              <li><a href="tasteOfChicago.html">Taste of Chicago</a></li>
+          </ul>
+      </div>
+      <div class="buttons">
+          <button class="btn btn-primary" data-places="2245 W Irving Park Rd, Chicago" style = "margin:5px">Chayhana</button>
+          <button class="btn btn-primary" data-places="5047 N Lincoln Ave, Chicago" style = "margin:5px">Jibek Jolu</button>
+          <button class="btn btn-primary" data-places="75 E Lake St, Chicago" style = "margin:5px">Broken English Taco Pub</button>
+          <button class="btn btn-primary" data-places="6730 N Northwest Hwy, Chicago" style = "margin:5px">Don Juan Restaurante</button>
+          <button class="btn btn-primary" data-places="3431 W Peterson Ave, Chicago" style = "margin:5px">Martino's Restaurant</button>
+          <button class="btn btn-primary" data-places="5707 N Central Ave, Chicago" style = "margin:5px">Colletti's</button>
+          <button class="btn btn-primary" data-places="2601 W Devon Ave, Chicago" style = "margin:5px">Nepal House</button>
+          <button class="btn btn-primary" data-places="59 W Grand Ave, Chicago" style = "margin:5px">India House </button>
+          <button class="btn btn-primary" data-places="200 S Halsted St, Chicago" style = "margin:5px">Greek Islands</button>
+          <button class="btn btn-primary" data-places="1558 N Milwaukee Ave, Chicago" style = "margin:5px">Taxim</button>
+      </div></br>
+    <div id="map"></div>
+    <div id="panel"></div>
+    <script type="text/javascript" src='map.js'></script>
+  </body>
 </html>
