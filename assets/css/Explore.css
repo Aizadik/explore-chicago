@@ -63,7 +63,7 @@ h3 {
 }
 
 .gifanchor:after {
-    color: white;
+    color: whitesmoke;
     content: 'Show on the map';
     visibility: visible;
     display: block;
