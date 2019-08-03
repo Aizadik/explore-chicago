@@ -29,12 +29,17 @@ body {
 }
 
 #top-nav-bars {
+    padding-bottom: 40px;
     color: 4aaaa5;
     display: inline-block;
     float: right;
     padding: 20px;
     font-size: 17px;
     padding-right: 60px;
+}
+
+.nav-item {
+    margin-left: 60px;
 }
 
 a {
