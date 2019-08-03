@@ -115,20 +115,27 @@ h3 {
 #panel {}
 
 #geocode #map {
-    display: none;
+
+    margin-top: 23px;
+    display: none; 
+
     margin-left: 20px;
-    width: 95%;
-    margin-bottom: 3px;
+    float:left;
+    width:50%;
+    /* margin-bottom: 3px; */
     height: 450px;
     background: grey;
 }
 
 #geocode #panel {
+    padding-left: -20px;
     display: none;
-    margin-left: 20px;
+    margin-right: 40px;
+    padding-top: 30px;
     color: white;
     font-size: 15px;
-    width: 95%;
+    float:right;
+    width:40%;
     min-height: 450px;
     max-height: 450px;
     border: 2px solid yellow;
@@ -142,4 +149,15 @@ h3 {
     color: yellow;
     font-size: 20px;
     font-family: 'Racing Sans One', cursive;
+    padding-bottom: 15px;
+    margin-top: 15px;
 }
+div.wrapper {
+    width:100%;
+    }
+strong {
+    font-size: 18px;
+    }
+
+    
+

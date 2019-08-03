@@ -114,10 +114,9 @@ $(document).ready(function () {
 
 
       for (i = 0;  i < locations.length; i += 1) {
-        var li = document.createElement('li'),
             divLabel = document.createElement('div'),
             address = locations[i].location.address,
-            content =  '<strong style="font-size: large; color: yellow">' + address.label  + '</strong></br>';
+            content =  '<strong style="font-size: large; color: yellow; margin-bottom:20px;">' + address.label  + '</strong></br>';
             position = {
               lat: locations[i].location.displayPosition.latitude,
               lng: locations[i].location.displayPosition.longitude
@@ -135,9 +134,8 @@ $(document).ready(function () {
             ' ' + Math.abs(position.lng.toFixed(4)) + ((position.lng > 0) ? 'E' : 'W');
 
           divLabel.innerHTML = content;
-          li.appendChild(divLabel);
 
-          nodeOL.appendChild(li);
+          nodeOL.appendChild(divLabel);
       }
 
       locationsContainer.appendChild(nodeOL);
