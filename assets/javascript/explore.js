@@ -6,10 +6,12 @@ $(document).ready(function() {
     var placess = ["Millennium Park", "Willis Tower", "Navy Pier", "Cloud Gate", "Wrigley Field",
         "John Hancock Center", "Cultural Center", "Chicago Riverwalk", "Navi Pier", "Museum of Science Industry", "Chicago Magnificent Mile", "Art Instuitute of Chicago"
     ];
+
     /*
      * creating a loop to take the value of the array and place it to the new buttons
      */
     for (var i = 0; i < placess.length; i++) {
+        placess[i] = placess[i].toLocaleUpperCase();
         var newbutton = `<button class="btn btn-primary" data-places=${placess[i]} style = "margin:5px">${placess[i]}</button>`
         $(".buttons").append(newbutton);
     }
