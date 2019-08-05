@@ -19,13 +19,14 @@
 }
 
 h3 {
-    color: white;
+    color: rgb(214, 214, 33);
     font-family: 'Racing Sans One', cursive;
     margin-left: 20px;
 }
 
 #add-items {
     margin-right: 60px;
+    color: #2043A4;
 }
 
 .btn btn-primary {
@@ -63,12 +64,14 @@ h3 {
 }
 
 .gifanchor:after {
-    color: whitesmoke;
+    color: #2043A4;
     content: 'Show on the map';
     visibility: visible;
     display: block;
     background-color: rgb(226, 226, 30);
     margin-right: 200px;
+    font-family: 'Racing Sans One', cursive;
+    text-align: center;
 }
 
 .gifall img:hover {
@@ -146,7 +149,7 @@ h3 {
     font-size: 20px;
     font-family: 'Racing Sans One', cursive;
     padding-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 div.wrapper {
